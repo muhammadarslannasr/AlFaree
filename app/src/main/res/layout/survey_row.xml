@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="160dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/house" />-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/addressID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="serif"
+                    android:text="Overall Address of House"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/favourites_images"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_thumb_up" />
+
+                <TextView
+                    android:id="@+id/rentID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textSize="16sp"
+                    android:layout_below="@id/addressID"
+                    android:text="Rent Rs/ 45,000"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/ownerOrpropertyID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:layout_below="@id/rentID"
+                    android:textSize="16sp"
+                    android:text="Property Dealer"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/mobileNumberID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:layout_below="@id/ownerOrpropertyID"
+                    android:textSize="16sp"
+                    android:text="Mobile Number: 03345456942"
+                    android:textColor="#555" />
+
+                <TextView
+                    android:id="@+id/mobileNumberID2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textSize="16sp"
+                    android:layout_below="@id/mobileNumberID"
+                    android:text="Mobile Number: 03061210502"
+                    android:textColor="#555" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:layout_below="@id/mobileNumberID2"
+                    android:text="Date 20/05/2019"
+                    android:textColor="#555" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/callBtn"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_call"
+                    android:theme="@style/PrimaryFlatButton" />
+
+                <Button
+                    android:id="@+id/editBtn"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_explore"
+                    android:theme="@style/PrimaryFlatButton" />
+
+                <Button
+                    android:id="@+id/shareBtn"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="@string/action_share"
+                    android:theme="@style/PrimaryFlatButton" />
+
+                <Button
+                    android:id="@+id/deleteButton"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="@string/delete"
+                    android:theme="@style/PrimaryFlatButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

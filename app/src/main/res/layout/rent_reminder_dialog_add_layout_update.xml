@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/main_textID"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"
+                android:text="Reminder Rent Addition Here!"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/person_nameID"
+                android:hint="Person Name"
+                android:layout_gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:fontFamily="serif"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/style_edittext"
+                android:layout_width="300dp"
+                android:layout_height="45dp" />
+
+            <!--<TextView-->
+                <!--android:textStyle="bold"-->
+                <!--android:text="Click me for Second Number!"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:textSize="14sp"-->
+                <!--android:fontFamily="serif"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/adbtnID"-->
+                <!--android:layout_width="30dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:src="@drawable/ic_add_black_24dp" />-->
+
+
+            <EditText
+                android:id="@+id/owner_pd_numberID"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/style_edittext"
+                android:fontFamily="serif"
+                android:hint="Number 1"
+                android:inputType="numberDecimal" />
+
+
+            <EditText
+                android:id="@+id/mobileSecondNumberID"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/style_edittext"
+                android:fontFamily="serif"
+                android:hint="Number 2"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/rentID"
+                android:hint="@string/rent_house_sale"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="numberDecimal"
+                android:fontFamily="serif"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:id="@+id/saleText"
+                android:textStyle="bold"
+                android:text="@string/rent_sale"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:id="@+id/rentorsaleId"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/style_edittext" />
+
+
+            <EditText
+                android:id="@+id/adTitleID"
+                android:hint="@string/ad_title"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="textPersonName"
+                android:layout_width="300dp"
+                android:paddingLeft="16dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="55dp" />
+
+
+            <EditText
+                android:id="@+id/descriptionID"
+                android:hint="@string/description"
+                android:layout_gravity="center_horizontal"
+                android:gravity="top"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="textMultiLine"
+                android:layout_width="300dp"
+                android:paddingLeft="16dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="200dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/submitbuttonId"
+                    android:text="Submit"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginBottom="5dp"
+                    android:background="#5E9DC0"
+                    android:layout_margin="5dp"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

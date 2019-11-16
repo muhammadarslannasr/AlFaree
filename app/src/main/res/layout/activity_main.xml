@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/splash_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView android:src="@drawable/center_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/username_text"
+                android:hint="User Email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/style_edittext"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+
+            <EditText
+                android:id="@+id/username_password"
+                android:hint="Password"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:background="@drawable/style_edittext"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+
+            <Button
+                android:id="@+id/login_btn_id"
+                android:text="Log In"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:layout_width="200dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/create_btn_id"
+                android:text="Create Account if not Created!"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="50dp" />
+
+
+            <TextView
+                android:id="@+id/reset_btn_id"
+                android:text="Reset Password ?"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:layout_marginTop="8dp"
+                android:layout_width="200dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+
+
+

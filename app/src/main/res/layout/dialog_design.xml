@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroung_fragment"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_background"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/share_bt"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/style_edittext_round_btn"
+                android:text="Share Text"
+                android:textColor="#FFFFFF" />
+
+
+            <!--<Button-->
+                <!--android:id="@+id/delete_btn"-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="45dp"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_marginBottom="8dp"-->
+                <!--android:background="@drawable/style_edittext_round_btn"-->
+                <!--android:text="Delete Message"-->
+                <!--android:textColor="#FFFFFF" />-->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">AlFaree</string>
+    <string name="login_activity">Login</string>
+    <string name="dashbaord">AlFaree Dashbaord</string>
+    <string name="survey">Add Survey Rent</string>
+    <string name="update_rent">Update Rent</string>
+    <string name="filter_list">Filter List</string>
+    <string name="rent_reminder">Rent Reminder</string>
+    <string name="sale_reminder">Sale Reminder</string>
+    <string name="survey_sale">Sale Survey 1</string>
+    <string name="next_survey">Survey 2</string>
+    <string name="next_survey_three">Survey 3</string>
+    <string name="survey_data">Survey Data Rent</string>
+    <string name="survey_data_sale">Survey Data Sale</string>
+    <string name="rent">Rent</string>
+    <string name="history_msg">It\'s Empty !\nThere is no data available</string>
+    <string name="search">Search</string>
+    <string name="sale">Sale</string>
+    <string name="sector_name">Sector Name</string>
+    <string name="street_number">Street No</string>
+    <string name="house_number">House No</string>
+    <string name="owner_pd_number">Mobile Number 1</string>
+    <string name="bedroom">Bedroom</string>
+    <string name="bath">Bath</string>
+    <string name="tv_launch">TV Launch</string>
+    <string name="drying_room">Drying Room</string>
+    <string name="dinning_room">Dinning Room</string>
+    <string name="servant_room">Servant Room</string>
+    <string name="furnish">Furnish</string>
+    <string name="ad_title">Ad Title</string>
+    <string name="description">Description</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="rent_search">Rent Search</string>
+    <string name="rent_house_sale">Rent e.g Rs/ 30000</string>
+    <string name="mobile_second_number">Mobile Number 2</string>
+    <string name="rent_sale">Rent</string>
+    <string name="area_unit">Area Unit</string>
+    <string name="security">Security</string>
+    <string name="advance">Advance</string>
+    <string name="action_explore">Edit</string>
+    <string name="action_call">Call</string>
+    <string name="action_share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="sure">You want to View Reminder!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sale_second">Sale Survey 2</string>
+    <string name="sale_three">Sale Survey 3</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

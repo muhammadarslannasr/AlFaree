@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"
+                android:text="Survey Sale Addition Here!"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/sector_nameID"
+                android:hint="@string/sector_name"
+                android:layout_gravity="center_horizontal"
+                android:inputType="textPersonName"
+                android:fontFamily="serif"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/style_edittext"
+                android:layout_width="300dp"
+                android:layout_height="45dp" />
+
+            <EditText
+                android:id="@+id/street_numberID"
+                android:hint="@string/street_number"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="serif"
+                android:layout_marginTop="8dp"
+                android:inputType="textPersonName"
+                android:background="@drawable/style_edittext"
+                android:layout_width="300dp"
+                android:layout_height="45dp" />
+
+
+
+            <EditText
+                android:id="@+id/house_numberID"
+                android:hint="@string/house_number"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="serif"
+                android:inputType="textPersonName"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:background="@drawable/style_edittext" />
+
+            <TextView
+                android:textStyle="bold"
+                android:text="Owner/Proprty Dealer"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:id="@+id/ownerorpropertyID"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/style_edittext" />
+
+
+            <EditText
+                android:id="@+id/owner_pd_numberID"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/style_edittext"
+                android:fontFamily="serif"
+                android:hint="@string/owner_pd_number"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:textStyle="bold"
+                android:text="Click me for Second Number!"
+                android:layout_gravity="center_horizontal"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/adbtnID"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_add_black_24dp" />
+
+
+            <EditText
+                android:id="@+id/mobileSecondNumberID"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/style_edittext"
+                android:fontFamily="serif"
+                android:hint="@string/mobile_second_number"
+                android:inputType="numberDecimal"
+                android:visibility="gone" />
+
+
+            <EditText
+                android:id="@+id/bedroomID"
+                android:hint="@string/bedroom"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="serif"
+                android:inputType="numberDecimal"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+            <EditText
+                android:id="@+id/bathID"
+                android:hint="@string/bath"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="numberDecimal"
+                android:fontFamily="serif"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+
+
+            <EditText
+                android:id="@+id/tvLaunchID"
+                android:hint="@string/tv_launch"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="numberDecimal"
+                android:fontFamily="serif"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+
+            <EditText
+                android:id="@+id/drying_roomID"
+                android:hint="@string/drying_room"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="numberDecimal"
+                android:fontFamily="serif"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+
+
+            <EditText
+                android:id="@+id/dinning_roomID"
+                android:hint="@string/dinning_room"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="numberDecimal"
+                android:fontFamily="serif"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+
+            <EditText
+                android:id="@+id/servant_roomID"
+                android:hint="@string/servant_room"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="numberDecimal"
+                android:fontFamily="serif"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+
+            <EditText
+                android:id="@+id/advanceID"
+                android:hint="@string/advance"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:visibility="gone"
+                android:inputType="numberDecimal"
+                android:fontFamily="serif"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+
+            <EditText
+                android:id="@+id/securityID"
+                android:hint="@string/security"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:visibility="gone"
+                android:layout_marginTop="8dp"
+                android:inputType="numberDecimal"
+                android:fontFamily="serif"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:text="Amount"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:id="@+id/rentorsaleId"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/style_edittext" />
+
+            <EditText
+                android:id="@+id/rentID"
+                android:hint="Demand e.g 3 Crore"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="number"
+                android:fontFamily="serif"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/furnish"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:id="@+id/furnishId"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/style_edittext" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/car_parkingCheckBoxID"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:fontFamily="serif"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_height="wrap_content"
+                    android:text="Car Park" />
+
+                <CheckBox
+                    android:id="@+id/seperate_gasCheckBoxId"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:text="Sep Gas" />
+
+
+                <CheckBox
+                    android:id="@+id/sep_elecCheckBoxId"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sep Elec" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/motorBorCheckBoxID"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_width="0dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:text="Motor Bor" />
+
+                <CheckBox
+                    android:id="@+id/fullHouseCheckBoxId"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:text="Furnish" />
+
+                <CheckBox
+                    android:id="@+id/gateSeperateCheckBoxId"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:text="Gate Sep" />
+
+            </LinearLayout>
+
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/area_unit"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <Spinner
+                android:id="@+id/areaSpinnerId"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/style_edittext" />
+
+
+            <EditText
+                android:id="@+id/areaUnitID"
+                android:hint="@string/area_unit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="numberDecimal"
+                android:fontFamily="serif"
+                android:layout_width="300dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:text="Floor Levels"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:id="@+id/floorSpinnerId"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/style_edittext" />
+
+
+            <EditText
+                android:id="@+id/adTitleID"
+                android:hint="@string/ad_title"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="textPersonName"
+                android:layout_width="300dp"
+                android:paddingLeft="16dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="55dp" />
+
+
+            <EditText
+                android:id="@+id/descriptionID"
+                android:hint="@string/description"
+                android:layout_gravity="center_horizontal"
+                android:gravity="top"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="textMultiLine"
+                android:layout_width="300dp"
+                android:paddingLeft="16dp"
+                android:background="@drawable/style_edittext"
+                android:layout_height="200dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/submitbuttonId"
+                    android:text="Update"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginBottom="5dp"
+                    android:background="#5E9DC0"
+                    android:layout_margin="5dp"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

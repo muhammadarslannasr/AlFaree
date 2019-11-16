@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/surveyID"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"
+                    android:layout_width="170dp"
+                    android:background="@drawable/rounded_corners_categories"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_survey"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:text="Add Survey Rent"
+                        android:fontFamily="serif"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rentID"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_marginLeft="1dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_corners_categories"
+                    android:layout_height="150dp">
+
+
+                    <ImageView
+                        android:src="@drawable/ic_home"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:text="@string/rent"
+                        android:fontFamily="serif"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/surveysaleID"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"
+                    android:layout_width="170dp"
+                    android:background="@drawable/rounded_corners_categories"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_banking"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:text="Add Survey Sale"
+                        android:fontFamily="serif"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/saledataViewID"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_marginLeft="1dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_corners_categories"
+                    android:layout_height="150dp">
+
+
+                    <ImageView
+                        android:src="@drawable/ic_sale"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:text="Sale"
+                        android:fontFamily="serif"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_gravity="center"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/rentreminderID"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_marginRight="1dp"-->
+                    <!--android:layout_width="170dp"-->
+                    <!--android:background="@drawable/rounded_corners_categories"-->
+                    <!--android:layout_height="150dp">-->
+
+                    <!--<ImageView-->
+                        <!--android:src="@drawable/ic_reminder_rent"-->
+                        <!--android:layout_width="70dp"-->
+                        <!--android:layout_height="70dp" />-->
+
+                    <!--<TextView-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:text="Rent Reminder"-->
+                        <!--android:fontFamily="serif"-->
+                        <!--android:padding="8dp"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/salereminderID"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:layout_width="170dp"-->
+                    <!--android:layout_marginLeft="1dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/rounded_corners_categories"-->
+                    <!--android:layout_height="150dp">-->
+
+
+                    <!--<ImageView-->
+                        <!--android:src="@drawable/ic_reminder_sale"-->
+                        <!--android:layout_width="70dp"-->
+                        <!--android:layout_height="70dp" />-->
+
+                    <!--<TextView-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:padding="8dp"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:text="Sale Reminder"-->
+                        <!--android:fontFamily="serif"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content" />-->
+                <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_gravity="center"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/commercialID"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_marginRight="1dp"-->
+                    <!--android:layout_width="170dp"-->
+                    <!--android:background="@drawable/rounded_corners_categories"-->
+                    <!--android:layout_height="150dp">-->
+
+                    <!--<ImageView-->
+                        <!--android:src="@drawable/ic_search_rent_check"-->
+                        <!--android:layout_width="70dp"-->
+                        <!--android:layout_height="70dp" />-->
+
+                    <!--<TextView-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:text="Search Rent"-->
+                        <!--android:fontFamily="serif"-->
+                        <!--android:padding="8dp"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/quitID"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:layout_width="170dp"-->
+                    <!--android:layout_marginLeft="1dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/rounded_corners_categories"-->
+                    <!--android:layout_height="150dp">-->
+
+
+                    <!--<ImageView-->
+                        <!--android:src="@drawable/ic_search_sale_survey"-->
+                        <!--android:layout_width="70dp"-->
+                        <!--android:layout_height="70dp" />-->
+
+                    <!--<TextView-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:padding="8dp"-->
+                        <!--android:textSize="18sp"-->
+                        <!--android:text="Search Sale"-->
+                        <!--android:fontFamily="serif"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content" />-->
+                <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

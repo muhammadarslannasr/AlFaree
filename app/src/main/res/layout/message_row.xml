@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/list_selector"
+    android:padding="5dp"
+    android:id="@+id/layoutID"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:padding="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/list_image"
+            android:layout_width="50dp"
+            android:src="@drawable/default_image"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/contact_nameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Muhammad Arslan Nasr"
+        android:textColor="#040404"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/readSms_counterID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/contact_nameID"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/contact_nameID"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/contact_text"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/contact_nameID"
+        android:text=""
+        android:layout_toRightOf="@+id/thumbnail"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:text="Time"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/contact_nameID"
+        android:layout_marginRight="10dp"
+        android:textSize="12sp"
+        android:gravity="right"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignEnd="@+id/contact_text"
+        android:layout_alignRight="@+id/contact_text"
+        android:layout_below="@+id/thumbnail"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray" />
+
+
+
+</RelativeLayout>

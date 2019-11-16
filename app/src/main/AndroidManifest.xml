@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thexsolution.propertyprojectf11">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.AuthorCreditActivity"></activity>
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.DashbaordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SurveyRentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.RentDataViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.InternalClickFullDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SurveyRentTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SurveyRentThreeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SaleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SaleSecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SaleThirdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SaleDataViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.RentReminderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SaleReminderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.FilterListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.RentUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.InternalClickFullDataSaleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.RentSurveySearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.RentSurveySearchRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SaleSurveySearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SaleSurveySearchRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SaleReminderSurveyRecyclerViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.NavigationDrawerActivity"
+            android:label="AlFaree"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.CreateAccountActivity" />
+
+        <service android:name=".Util.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Util.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Activities.ConversationActivity" />
+        <activity android:name=".Activities.ProfileActivity" />
+    </application>
+
+</manifest>
